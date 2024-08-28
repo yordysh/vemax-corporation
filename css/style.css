@@ -73,7 +73,7 @@
 }
 
 .btn.btn-primary {
-    background: var(--bs-primary) !important;
+    background: #3F5FF9 !important;
     color: var(--bs-white) !important;
     font-family: 'Roboto', sans-serif;
     border: none;
@@ -116,7 +116,7 @@
 /*** Topbar Start ***/
 .topbar {
     padding: 2px 10px 2px 20px;
-    background: var(--bs-dark) !important;
+    background: #000028 !important;
 }
 
 @media (max-width: 768px) {
