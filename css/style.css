@@ -123,6 +123,9 @@
 .text-primary {
     color: #3F5FF9 !important;
 }
+.background-primary{
+    background-color: #3F5FF9;
+}
 
 @media (max-width: 768px) {
     .topbar {
@@ -370,7 +373,7 @@
     top: -150px;
     left: 70px;
     transform: rotate(-30deg);
-    background: rgba(68, 210, 246, 0.2);
+    background: rgba(63, 95, 249, 0.2);
     animation: RotateMoveRight 5s linear infinite;
     z-index: 2 !important;
 }
@@ -462,7 +465,12 @@
         left: 65%;
     }
 }
-
+@media (max-width: 500px) {
+    .logo{
+        width: 180px;
+        height: 50px;
+    }
+}
 /*** Header Carousel End ***/
 
 /*** Single Page Hero Header Start ***/
@@ -511,7 +519,7 @@
     top: -150px;
     right: -150px;
     border-radius: 200px;
-    border: 80px solid rgba(68, 210, 246, 0.2);
+    border: 80px solid rgba(63, 95, 249, 0.2);
     animation: RotateMoveCircle 10s linear infinite;
     background: transparent;
     z-index: 2 !important;
@@ -545,7 +553,7 @@
     left: 0;
     margin-left: 160px;
     transform: rotate(-30deg);
-    background: rgba(68, 210, 246, 0.2);
+    background: rgba(63, 95, 249, 0.2);
     animation: RotateMoveRight 5s linear infinite;
     z-index: 2 !important;
 }
@@ -599,7 +607,7 @@
     right: 0;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    background: rgba(68, 210, 246, 0.4);
+    background: rgba(63, 95, 249, 0.2);
     transition: 0.5s;
 }
 
@@ -677,7 +685,7 @@
     top: 0;
     left: 0;
     border-radius: 10px;
-    background: rgba(68, 210, 246, 0.4);
+    background: rgba(63, 95, 249, 0.4);
     transition: 0.5s;
 }
 
@@ -783,7 +791,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: rgba(68, 210, 246, 0.2);
+    background: rgba(63, 95, 249, 0.2);
     transition: 0.5s;
     opacity: 0;
 }
@@ -865,7 +873,7 @@
     left: 0;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    background: rgba(68, 210, 246, 0.2);
+    background: rgba(63, 95, 249, 0.2);
     transition: 0.5s;
 }
 
