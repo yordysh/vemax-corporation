@@ -123,14 +123,45 @@
 .text-primary {
     color: #3F5FF9 !important;
 }
-.background-primary{
+
+.text-gris {
+    color: #808080;
+}
+
+.background-primary {
     background-color: #3F5FF9;
 }
 
+
+
+.info {
+    margin-top: -55px;
+} 
 @media (max-width: 768px) {
     .topbar {
         display: none;
     }
+    .info {
+        margin-top: 0;
+    }
+}
+
+
+.info__column {
+    width: 90%;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: rgb(2 86 149 / 65%) 0px 4px 8px 0px;
+    height: 100%;
+    padding: 5%;
+}
+
+.info__img {
+    width: 100%;
+}
+
+.info__titulo {
+    font-size: 1.5rem;
 }
 
 /*** Topbar End ***/
@@ -200,15 +231,17 @@
     width: 380px;
     height: 80px;
 }
+
 .logo-footer {
     width: 280px;
     height: 80px;
 }
 
 /*** Bakcground color***/
-.bg-color{
-    background-color:#3F5FF9 !important;
+.bg-color {
+    background-color: #3F5FF9 !important;
 }
+
 @media (min-width: 1200px) {
     .navbar .nav-item .dropdown-menu {
         display: block;
@@ -227,17 +260,19 @@
     .display-1 {
         font-size: 3.833rem;
     }
-   
 
-    .cover-text-1{
+
+    .cover-text-1 {
         max-width: 900px;
         white-space: normal;
     }
-    .cover-text-2{
+
+    .cover-text-2 {
         max-width: 1157.5px;
         white-space: normal;
     }
-    .cover-text-3{
+
+    .cover-text-3 {
         max-width: 800px;
         white-space: normal;
     }
@@ -465,19 +500,51 @@
         left: 65%;
     }
 }
+
 @media (max-width: 500px) {
-    .logo{
+    .logo {
         width: 180px;
         height: 50px;
     }
 }
+
 /*** Header Carousel End ***/
 
 /*** Single Page Hero Header Start ***/
 .bg-breadcrumb {
     position: relative;
     overflow: hidden;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/carousel-1.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/sobre-nosotros.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0 60px 0;
+}
+
+.bg-breadcrumb-service {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/nuestros-servicios.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0 60px 0;
+}
+
+.bg-breadcrumb-project {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/nuevos-proyectos.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0 60px 0;
+}
+
+.bg-breadcrumb-contact {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/nuevos-proyectos.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -488,11 +555,13 @@
     color: var(--bs-white) !important;
     font-size: 22px;
 }
+
 .breadcrumb-item.active {
     font-weight: 800 !important;
     font-size: 22px;
 }
-.breadcrumb-item+.breadcrumb-item::before{
+
+.breadcrumb-item+.breadcrumb-item::before {
     font-size: 22px;
 }
 
@@ -779,6 +848,7 @@
     border-radius: 10px;
     transition: 0.5s;
 }
+
 .blog .blog-item .blog-project a.h4:hover {
     color: #3F5FF9 !important;
 }

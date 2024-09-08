@@ -1,417 +1,753 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <title>VEMAX - CORPORATION</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="" name="keywords">
-        <meta content="" name="description">
+<head>
+    <meta charset="utf-8">
+    <title>VEMAX - CORPORATION</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
 
-        <!-- Google Web Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
 
-        <!-- Icon Font Stylesheet -->
-        <link rel="stylesheet" href="./lib/fontawesome-free-6.6.0-web/css/all.css"/>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="./lib/fontawesome-free-6.6.0-web/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
-        <!-- Libraries Stylesheet -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-        <link href="lib/animate/animate.min.css" rel="stylesheet">
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <!-- Libraries Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
 
-        <!-- Customized Bootstrap Stylesheet -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-        <!-- Template Stylesheet -->
-        <link href="css/style.css" rel="stylesheet">
-    </head>
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
 
-    <body>
+<body>
 
-        <!-- Spinner Start -->
-        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-                <span class="sr-only">Cargando...</span>
-            </div>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Cargando...</span>
         </div>
-        <!-- Spinner End -->
+    </div>
+    <!-- Spinner End -->
 
 
-        <!-- Topbar Start -->
-        <div class="container-fluid topbar px-0 d-none d-lg-block">
-            <div class="container px-0">
-                <div class="row gx-0 align-items-center" style="height: 45px;">
-                    <div class="col-lg-8 text-center text-lg-start mb-lg-0">
-                        <div class="d-flex flex-wrap">
-                            <a href="#" class="text-muted me-4"><i class="fas fa-map-marker-alt text-primary me-2"></i>Santa Ursula - SJL</a>
-                            <a href="#" class="text-muted me-4"><i class="fas fa-phone-alt text-primary me-2"></i>955 583 134</a>
-                            <a href="#" class="text-muted me-0"><i class="fas fa-envelope text-primary me-2"></i> vemaxcorporativo@gmail.com</a>
-                        </div>
+    <!-- Topbar Start -->
+    <div class="container-fluid topbar px-0 d-none d-lg-block">
+        <div class="container px-0">
+            <div class="row gx-0 align-items-center" style="height: 45px;">
+                <div class="col-lg-8 text-center text-lg-start mb-lg-0">
+                    <div class="d-flex flex-wrap">
+                        <a href="#" class="text-muted me-4"><i class="fas fa-map-marker-alt text-primary me-2"></i>Santa
+                            Ursula - SJL</a>
+                        <a href="#" class="text-muted me-4"><i class="fas fa-phone-alt text-primary me-2"></i>955 583
+                            134</a>
+                        <a href="#" class="text-muted me-0"><i class="fas fa-envelope text-primary me-2"></i>
+                            vemaxcorporativo@gmail.com</a>
                     </div>
-                    <div class="col-lg-4 text-center text-lg-end">
-                        <div class="d-flex align-items-center justify-content-end">
-                            <a href="https://www.facebook.com/VemaxPeru" target="_blank" class="btn btn-primary btn-square rounded-circle nav-fill me-3"><i class="fab fa-facebook-f text-white"></i></a>
-                            <a href="#" class="btn btn-primary btn-square rounded-circle nav-fill me-3"><i class="fab fa-twitter text-white"></i></a>
-                            <a href="https://www.instagram.com/vemaxperu/" target="_blank" class="btn btn-primary btn-square rounded-circle nav-fill me-3"><i class="fab fa-instagram text-white"></i></a>
-                            <a href="https://www.tiktok.com/@vemaxperu" target="_blank" class="btn btn-primary btn-square rounded-circle nav-fill me-0"><i class="fab fa-tiktok text-white"></i></a>
-                        </div>
+                </div>
+                <div class="col-lg-4 text-center text-lg-end">
+                    <div class="d-flex align-items-center justify-content-end">
+                        <a href="https://www.facebook.com/VemaxPeru" target="_blank"
+                            class="btn btn-primary btn-square rounded-circle nav-fill me-3"><i
+                                class="fab fa-facebook-f text-white"></i></a>
+                        <a href="#" class="btn btn-primary btn-square rounded-circle nav-fill me-3"><i
+                                class="fab fa-twitter text-white"></i></a>
+                        <a href="https://www.instagram.com/vemaxperu/" target="_blank"
+                            class="btn btn-primary btn-square rounded-circle nav-fill me-3"><i
+                                class="fab fa-instagram text-white"></i></a>
+                        <a href="https://www.tiktok.com/@vemaxperu" target="_blank"
+                            class="btn btn-primary btn-square rounded-circle nav-fill me-0"><i
+                                class="fab fa-tiktok text-white"></i></a>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Topbar End -->
+    </div>
+    <!-- Topbar End -->
 
 
-        <!-- Navbar & Hero Start -->
-        <div class="container-fluid sticky-top px-0">
-            <div class="position-absolute bg-dark" style="left: 0; top: 0; width: 100%; height: 100%;">
-            </div>
-            <div class="container px-0">
-                <nav class="navbar navbar-expand-lg navbar-dark bg-white py-3 px-4">
-                    <a href="index.html" class="navbar-brand p-0">
-                        <!-- <h1 class="text-primary m-0"><i class="fas fa-donate me-3"></i>Investa</h1> -->
-                        <img src="img/logo-corporativo1.png" alt="Logo" class="logo">
-                    </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                        <span class="fa fa-bars"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarCollapse">
-                        <div class="navbar-nav ms-auto py-0">
-                            <a href="index.html" class="nav-item nav-link">Hogar</a>
-                            <a href="about.html" class="nav-item nav-link active">Sobre Nosotros</a>
-                            <a href="service.html" class="nav-item nav-link">Servicios</a>
-                            <a href="project.html" class="nav-item nav-link">Proyectos</a>
-                            <a href="contact.html" class="nav-item nav-link">Contáctanos</a>
-                        </div>
-                        <!-- <div class="d-flex align-items-center flex-nowrap pt-xl-0">
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid sticky-top px-0">
+        <div class="position-absolute bg-dark" style="left: 0; top: 0; width: 100%; height: 100%;">
+        </div>
+        <div class="container px-0">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-white py-3 px-4">
+                <a href="index.html" class="navbar-brand p-0">
+                    <!-- <h1 class="text-primary m-0"><i class="fas fa-donate me-3"></i>Investa</h1> -->
+                    <img src="img/logo-header.png" alt="Logo" class="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link">Hogar</a>
+                        <a href="about.html" class="nav-item nav-link active">Sobre Nosotros</a>
+                        <a href="service.html" class="nav-item nav-link">Servicios</a>
+                        <a href="project.html" class="nav-item nav-link">Proyectos</a>
+                        <a href="contact.html" class="nav-item nav-link">Contáctanos</a>
+                    </div>
+                    <!-- <div class="d-flex align-items-center flex-nowrap pt-xl-0">
                             <button class="btn btn-primary btn-md-square mx-2" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
                             
                         </div> -->
-                    </div>
-                </nav>
-            </div>
+                </div>
+            </nav>
         </div>
-        <!-- Navbar & Hero End -->
+    </div>
+    <!-- Navbar & Hero End -->
 
-        <!-- Modal Search Start -->
-        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-fullscreen">
-                <div class="modal-content rounded-0">
-                    <div class="modal-header">
-                        <h4 class="modal-title mb-0" id="exampleModalLabel">Search by keyword</h4>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body d-flex align-items-center">
-                        <div class="input-group w-75 mx-auto d-flex">
-                            <input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
-                            <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
-                        </div>
+    <!-- Modal Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h4 class="modal-title mb-0" id="exampleModalLabel">Search by keyword</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center">
+                    <div class="input-group w-75 mx-auto d-flex">
+                        <input type="search" class="form-control p-3" placeholder="keywords"
+                            aria-describedby="search-icon-1">
+                        <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Modal Search End -->
+    </div>
+    <!-- Modal Search End -->
 
-        <!-- Header Start -->
-        <div class="container-fluid bg-breadcrumb">
-            <div class="bg-breadcrumb-single"></div>
-            <div class="container text-center py-5" style="max-width: 900px;">
-                <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">SOBRE NOSOTROS</h4>
-                <ol class="breadcrumb justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
-                    <li class="breadcrumb-item"><a href="index.html"> Hogar</a></li>
-                    <li class="breadcrumb-item"><a href="#"> Páginas</a></li>
-                    <li class="breadcrumb-item active text-primary">Nosotros
-                    </li>
-                </ol>    
-            </div>
+    <!-- Header Start -->
+    <div class="container-fluid bg-breadcrumb">
+        <div class="bg-breadcrumb-single"></div>
+        <div class="container text-center py-5" style="max-width: 900px;">
+            <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">SOBRE NOSOTROS</h4>
+            <ol class="breadcrumb justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+                <li class="breadcrumb-item"><a href="index.html"> Hogar</a></li>
+                <li class="breadcrumb-item"><a href="#"> Páginas</a></li>
+                <li class="breadcrumb-item active text-primary">Nosotros
+                </li>
+            </ol>
         </div>
-        <!-- Header End -->
+    </div>
+    <!-- Header End -->
 
-        <!-- About Start -->
-        <div class="container-fluid about bg-light py-5">
-            <div class="container py-5">
-                <div class="row g-5 align-items-center">
-                    <div class="col-lg-6 col-xl-5 wow fadeInLeft" data-wow-delay="0.1s">
-                        <div class="about-img">
-                            <img src="img/about-2.png" class="img-fluid w-100" alt="Image">
-                        </div>
+    <!-- About Start -->
+    <div class="container-fluid about bg-light py-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <h1 class="display-5 mb-4">Optimiza la Conexión con Tu Negocio</h1>
+                <div class="col-lg-6 col-xl-5 wow fadeInLeft" data-wow-delay="0.1s">
+
+                    <div class="about-img">
+                        <img src="img/sobrenosotros-1.png" class="img-fluid w-100" alt="Image">
                     </div>
-                    <div class="col-lg-6 col-xl-7 wow fadeInRight" data-wow-delay="0.3s">
-                        <h4 class="text-primary">Sobre nosotros</h4>
-                        <h1 class="display-5 mb-4">Vemax Corporativo.</h1>
-                        <p class="text ps-4 mb-4">Somos una empresa comprometida con la provisión de servicios de internet
+                </div>
+                <div class="col-lg-6 col-xl-7 wow fadeInRight" data-wow-delay="0.3s">
+                    <!-- <h4 class="text-primary">Sobre nosotros</h4> -->
+                    <!-- <h1 class="display-5 mb-4">Optimiza la Conexión con Tu Negocio</h1> -->
+                    <!-- <p class="text ps-4 mb-4">Somos una empresa comprometida con la provisión de servicios de internet
                             rápidos y eficientes para diversos sectores del Perú, abarcando áreas urbanas,
                             rurales, centros de juegos en red (lancenters) y negocios de todas las
                             dimensiones, desde microempresas hasta grandes corporaciones.
-                        </p>
-                        <div class="row g-4 justify-content-between mb-5">
-                            <div class="col-lg-4 col-xl-4">
-                                <p class="text-dark"><i class="fas fa-check-circle text-primary me-1"></i>  Internet Corporativo</p>
-                                <p class="text-dark mb-0"><i class="fas fa-check-circle text-primary me-1"></i> Enlaces entre sedes</p>
+                        </p> -->
+                    <div class="row g-4 justify-content-between mb-5">
+                        <div class="col-lg-12 col-xl-12">
+                            <p class="text-primary"><i class="fas fa-check-circle text-primary me-1"></i>
+                                <strong>Privacidad y
+                                    Seguridad</strong>
+                            </p>
+                            <p class="text-gris mb-0">Privacidad de la información y seguridad y centralización de la
+                                gestión administrativa</p>
+                        </div>
+                    </div>
+                    <div class="row g-4 justify-content-between mb-5">
+                        <div class="col-lg-12 col-xl-12">
+                            <p class="text-primary"><i class="fas fa-check-circle text-primary me-1"></i>
+                                <strong>Supervisión de Red</strong>
+                            </p>
+                            <p class="text-gris mb-0">Políticas que mejoren la satisfacción integral de los usuarios de
+                                los servicios públicos
+                                de telecomunicaciones</p>
+                        </div>
+                    </div>
+                    <div class="row g-4 justify-content-between mb-5">
+                        <div class="col-lg-12 col-xl-12">
+                            <p class="text-primary"><i class="fas fa-check-circle text-primary me-1"></i>
+                                <strong>Infraestructura Segura</strong>
+                            </p>
+                            <p class="text-gris mb-0">Seguridad para almacenar y organizar tu información de manera
+                                confiable con la mayor
+                                velocidad, gracias a nuestra red de fibra óptica</p>
+                        </div>
+                    </div>
+                    <div class="row g-4 justify-content-between mb-5">
+                        <div class="col-lg-12 col-xl-12">
+                            <p class="text-primary"><i class="fas fa-check-circle text-primary me-1"></i>
+                                <strong>Industria Informática</strong>
+                            </p>
+                            <p class="text-gris mb-0">Supervisión de red e identificación de picos inesperados en el
+                                tráfico de la red a
+                                solucionar el problema.</p>
+                        </div>
+                    </div>
+                    <!-- <div class="row g-4 justify-content-between mb-5">
+                        <div class="col-xl-5"><a href="#" class="btn btn-primary rounded-pill py-3 px-5"> Descubra
+                                más</a></div>
+                        <div class="col-xl-7 mb-5">
+                            <div class="about-customer d-flex position-relative">
+                                <img src="img/customer-img-1.jpg" class="img-fluid btn-xl-square position-absolute"
+                                    style="left: 0; top: 0;" alt="Image">
+                                <img src="img/customer-img-2.jpg" class="img-fluid btn-xl-square position-absolute"
+                                    style="left: 45px; top: 0;" alt="Image">
+                                <img src="img/customer-img-3.jpg" class="img-fluid btn-xl-square position-absolute"
+                                    style="left: 90px; top: 0;" alt="Image">
+                                <img src="img/customer-img-1.jpg" class="img-fluid btn-xl-square position-absolute"
+                                    style="left: 135px; top: 0;" alt="Image">
+                                <div class="position-absolute text-dark" style="left: 220px; top: 10px;">
+                                    <p class="mb-0">Más de 25 millones de</p>
+                                    <p class="mb-0">usuarios de confianza.</p>
+                                </div>
                             </div>
-                            <div class="col-lg-5 col-xl-5">
-                                <p class="text-dark"><i class="fas fa-check-circle text-primary me-1"></i> Telefonia IP Empresarial</p>
-                                <p class="text-dark mb-0"><i class="fas fa-check-circle text-primary me-1"></i> Monitoreo de Red</p>
+                        </div>
+                    </div> -->
+                    <!-- <div class="row g-4 text-center align-items-center justify-content-center">
+                        <div class="col-sm-4">
+                            <div class="bg-color rounded p-4">
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <span class="counter-value fs-1 fw-bold text-white"
+                                        data-toggle="counter-up">25</span>
+                                    <h4 class="text-white fs-1 mb-0" style="font-weight: 600; font-size: 25px;">k+</h4>
+                                </div>
+                                <div class="w-100 d-flex align-items-center justify-content-center">
+                                    <p class="text-white mb-0">Personas conectadas</p>
+                                </div>
                             </div>
-                            <div class="col-lg-3 col-xl-3">
-                                <p class="text-dark"><i class="fas fa-check-circle text-primary me-1"></i>Monitoreo de red</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="bg-dark rounded p-4">
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <span class="counter-value fs-1 fw-bold text-white"
+                                        data-toggle="counter-up">5</span>
+                                    <h4 class="text-white fs-1 mb-0" style="font-weight: 600; font-size: 25px;">+</h4>
+                                </div>
+                                <div class="w-100 d-flex align-items-center justify-content-center">
+                                    <p class="mb-0 text-white">Años de experiencia</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="bg-color rounded p-4">
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <span class="counter-value fs-1 fw-bold text-white"
+                                        data-toggle="counter-up">45</span>
+                                    <h4 class="text-white fs-1 mb-0" style="font-weight: 600; font-size: 25px;">+</h4>
+                                </div>
+                                <div class="w-100 d-flex align-items-center justify-content-center">
+                                    <p class="text-white mb-0"> Miembros del equipo</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
 
-                            </div>
-                        </div>
-                        <div class="row g-4 justify-content-between mb-5">
-                            <div class="col-xl-5"><a href="#" class="btn btn-primary rounded-pill py-3 px-5"> Descubra más</a></div>
-                            <div class="col-xl-7 mb-5">
-                                <div class="about-customer d-flex position-relative">
-                                    <img src="img/customer-img-1.jpg" class="img-fluid btn-xl-square position-absolute" style="left: 0; top: 0;"  alt="Image">
-                                    <img src="img/customer-img-2.jpg" class="img-fluid btn-xl-square position-absolute" style="left: 45px; top: 0;" alt="Image">
-                                    <img src="img/customer-img-3.jpg" class="img-fluid btn-xl-square position-absolute" style="left: 90px; top: 0;" alt="Image">
-                                    <img src="img/customer-img-1.jpg" class="img-fluid btn-xl-square position-absolute" style="left: 135px; top: 0;" alt="Image">
-                                    <div class="position-absolute text-dark" style="left: 220px; top: 10px;">
-                                        <p class="mb-0">Más de 25 millones de</p>
-                                        <p class="mb-0">usuarios de confianza.</p>
-                                    </div>
+
+    <!-- Team Start -->
+    <div class="container-fluid team pb-5 bg-light">
+        <div class="container pb-5">
+            <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+                <!-- <h4 class="text-primary">Nuestro Equipo</h4> -->
+                <h1 class="display-4"> Beneficios que ofrecemos a
+                    nuestros cliente</h1>
+                <p class="text-gris">Nuestra prioridad es ofrecer servicios de telecomunicaciones que garantizan la
+                    máxima confiabilidad y seguridad, protegiendo la integridad y continuidad de sus
+                    operaciones empresariales.</p>
+            </div>
+            <img src="img/about-3.png" class="img-fluid w-100 rounded-top h-50" alt="Image">
+            <div class="row g-4 info align-items-center justify-content-center">
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="info__column">
+                        <img src="img/blog-1.jpg" alt="" class="info__img">
+                        <h1 class="info__titulo text-primary text-center">ESTABILIDAD</h1>
+                        <p class="info-text">Las comunicaciones
+                            entre nuestro router y los
+                            servidores que estamos
+                            utilizando se producen
+                            de forma normal, sin
+                            retrasos y sin pérdidas.</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="info__column">
+                        <img src="img/blog-1.jpg" alt="" class="info__img">
+                        <h1 class="info__titulo text-primary text-center">PROTECCIÓN</h1>
+                        <p class="info-text">Implementamos
+                            avanzados protocolos
+                            de ciberseguridad
+                            encriptación y monitoreo
+                            constante para prevenir
+                            amenazas y accesos no
+                            autorizados.</p>
+
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="info__column">
+                        <img src="img/blog-1.jpg" alt="" class="info__img">
+                        <h1 class="info__titulo text-primary text-center">INNOVACIÓN</h1>
+                        <p class="info-text">El desarrollar tecnologías
+                            de vanguardia que
+                            mejoren la calidad del
+                            servicio, la velocidad de
+                            transmisión de datos y
+                            optimizar la experiencia
+                            del usuario.</p>
+
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="info__column">
+                        <img src="img/blog-1.jpg" alt="" class="info__img">
+                        <h1 class="info__titulo text-primary text-center">VELOCIDAD</h1>
+                        <p class="info-text">Nos enfocamos en
+                            ofrecer conexiones de
+                            alta velocidad mediante
+                            infraestructura moderna
+                            y tecnologías avanzadas.</p>
+
+                    </div>
+                </div>
+                <!-- <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item rounded">
+                        <div class="team-img">
+                            <img src="img/team-2.jpg" class="img-fluid w-100 rounded-top" alt="Image">
+                            <div class="team-icon">
+                                <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i
+                                        class="fas fa-share-alt"></i></a>
+                                <div class="team-icon-share">
+                                    <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i
+                                            class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i
+                                            class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-0" href=""><i
+                                            class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
                         </div>
-                        <div class="row g-4 text-center align-items-center justify-content-center">
-                            <div class="col-sm-4">
-                                <div class="bg-color rounded p-4">
-                                    <div class="d-flex align-items-center justify-content-center">
-                                        <span class="counter-value fs-1 fw-bold text-white" data-toggle="counter-up">25</span>
-                                        <h4 class="text-white fs-1 mb-0" style="font-weight: 600; font-size: 25px;">k+</h4>
-                                    </div>
-                                    <div class="w-100 d-flex align-items-center justify-content-center">
-                                        <p class="text-white mb-0">Personas conectadas</p>
-                                    </div>
+                        <div class="team-content bg-dark text-center rounded-bottom p-4">
+                            <div class="team-content-inner rounded-bottom">
+                                <h4 class="text-white">IVONNE CRISTOBAL</h4>
+                                <p class="text-muted mb-0">Diseño y Marketing</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item rounded">
+                        <div class="team-img">
+                            <img src="img/team-2.png" class="img-fluid w-100 rounded-top" alt="Image">
+                            <div class="team-icon">
+                                <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i
+                                        class="fas fa-share-alt"></i></a>
+                                <div class="team-icon-share">
+                                    <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i
+                                            class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i
+                                            class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-0" href=""><i
+                                            class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
-                            <div class="col-sm-4">
-                                <div class="bg-dark rounded p-4">
-                                    <div class="d-flex align-items-center justify-content-center">
-                                        <span class="counter-value fs-1 fw-bold text-white" data-toggle="counter-up">5</span>
-                                        <h4 class="text-white fs-1 mb-0" style="font-weight: 600; font-size: 25px;">+</h4>
-                                    </div>
-                                    <div class="w-100 d-flex align-items-center justify-content-center">
-                                        <p class="mb-0 text-white">Años de experiencia</p>
-                                    </div>
+                        </div>
+                        <div class="team-content bg-dark text-center rounded-bottom p-4">
+                            <div class="team-content-inner rounded-bottom">
+                                <h4 class="text-white">ESPERANZA ROMERO</h4>
+                                <p class="text-muted mb-0">Ingeniera de sistemas</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item rounded">
+                        <div class="team-img">
+                            <img src="img/team-4.jpg" class="img-fluid w-100 rounded-top" alt="Image">
+                            <div class="team-icon">
+                                <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i
+                                        class="fas fa-share-alt"></i></a>
+                                <div class="team-icon-share">
+                                    <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i
+                                            class="fab fa-facebook-f"></i></a>
+                                    <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i
+                                            class="fab fa-twitter"></i></a>
+                                    <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-0" href=""><i
+                                            class="fab fa-instagram"></i></a>
                                 </div>
                             </div>
-                            <div class="col-sm-4">
-                                <div class="bg-color rounded p-4">
-                                    <div class="d-flex align-items-center justify-content-center">
-                                        <span class="counter-value fs-1 fw-bold text-white" data-toggle="counter-up">45</span>
-                                        <h4 class="text-white fs-1 mb-0" style="font-weight: 600; font-size: 25px;">+</h4>
-                                    </div>
-                                    <div class="w-100 d-flex align-items-center justify-content-center">
-                                        <p class="text-white mb-0"> Miembros del equipo</p>
-                                    </div>
+                        </div>
+                        <div class="team-content bg-dark text-center rounded-bottom p-4">
+                            <div class="team-content-inner rounded-bottom">
+                                <h4 class="text-white">LUIS NOLBERTO</h4>
+                                <p class="text-muted mb-0">Ingeniero NOC</p>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+
+    <!-- network presence Start -->
+    <div class="container-fluid about bg-light py-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+
+                <div class="col-lg-6 col-xl-5 wow fadeInLeft" data-wow-delay="0.1s">
+                    <h1 class="display-5 mb-4">Presencia de Red</h1>
+                    <div class="row g-4 justify-content-between mb-5">
+                        <div class="col-lg-12 col-xl-12">
+                            <p class="text-primary">
+                                <strong>Lima Metropolitana</strong>
+                            </p>
+                            <p class="text-gris mb-0">La red (100% Fibra Óptica) se traslada a tráves del Data
+                                Center localizado en San Juan de Lurigancho, a 8 SITE
+                                (FTTH) en Lima.</p>
+                        </div>
+                    </div>
+                    <div class="row g-4 justify-content-between mb-5">
+                        <div class="col-lg-12 col-xl-12">
+                            <p class="text-primary">
+                                <strong>Lima Provincias</strong>
+                            </p>
+                            <p class="text-gris mb-0">Como proveedores de una gran red empleamos una
+                                mayor cobertura en sectores y/o provincias en la zona
+                                Este y Norte.</p>
+                        </div>
+                    </div>
+                    <div class="row g-4 text-center align-items-center justify-content-center">
+                        <div class="col-sm-4">
+                            <div class="bg-color rounded p-4">
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <span class="counter-value fs-1 fw-bold text-white" data-toggle="counter-up">620</span>
+                                    <h4 class="text-white fs-1 mb-0" style="font-weight: 600; font-size: 25px;">km</h4>
                                 </div>
+                                <div class="w-100 d-flex align-items-center justify-content-center">
+                                    <p class="text-white mb-0">Red deFibra Óptica</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="bg-dark rounded p-4">
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <span class="counter-value fs-1 fw-bold text-white" data-toggle="counter-up">28</span>
+                                    <!-- <h4 class="text-white fs-1 mb-0" style="font-weight: 600; font-size: 25px;">+</h4> -->
+                                </div>
+                                <div class="w-100 d-flex align-items-center justify-content-center">
+                                    <p class="mb-0 text-white">Distritos Conectados</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="bg-color rounded p-4">
+                                <div class="d-flex align-items-center justify-content-center">
+                                    <span class="counter-value fs-1 fw-bold text-white" data-toggle="counter-up">8</span>
+                                    <h4 class="text-white fs-1 mb-0" style="font-weight: 600; font-size: 25px;">Site</h4>
+                                </div>
+                                <div class="w-100 d-flex align-items-center justify-content-center">
+                                    <p class="text-white mb-0"> Lima Norte, Centro Este y Sur</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-xl-7 wow fadeInRight" data-wow-delay="0.3s">
+                    <div class="about-img">
+                        <img src="img/sobrenosotros-1.png" class="img-fluid w-100" alt="Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- network presence End -->
+
+
+      <!-- Network Start -->
+      <div class="container-fluid project mt-5">
+        <div class="container">
+            <!-- <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+                <h4 class="text-primary"> Nuevos eventos</h4>
+                <h1 class="display-4">Explora nuestros nuevos proyectos</h1>
+            </div> -->
+            <div class="project-carousel owl-carousel wow fadeInUp" data-wow-delay="0.1s">
+                <div class="project-item h-100 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="project-img">
+                        <img src="img/red-1.png" class="img-fluid w-100 rounded" alt="Image">
+                    </div>
+                    <div class="project-content bg-light rounded p-4">
+                        <div class="project-content-inner">
+                            <div class="project-icon mb-3"><i class="fa-solid fa-network-wired fa-4x text-primary"></i></div>
+                            <p class="text-primary fs-5 mb-3">Red en Chaclacayo</p>
+                            <a href="#" class="h4 text-gris"> Proveedores de una gran red
+                                a nivel de Lima, empleamos una
+                                mayor cobertura en sectores y/o
+                                provincias en la zona Este y
+                                Norte.</a>
+                            <div class="pt-4">
+                                <a class="btn btn-light rounded-pill py-3 px-5" href="#">Ver mapa</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item h-100 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="project-img">
+                        <img src="img/red-2.png" class="img-fluid w-100 rounded" alt="Image">
+                    </div>
+                    <div class="project-content bg-light rounded p-4">
+                        <div class="project-content-inner">
+                            <div class="project-icon mb-3"><i class="fa-solid fa-network-wired fa-4x text-primary"></i></div>
+                            <p class="text-primary fs-5 mb-3">Red en Ñaña</p>
+                            <a href="#" class="h4 text-gris">Garantizamos soluciones óptimas
+                                y actualizaciones en los distintos 
+                                sectores, por lo mismo hemos 
+                                construido una red de fibra de alta 
+                                capacidad y de gran cobertura.</a>
+                            <div class="pt-4">
+                                <a class="btn btn-light rounded-pill py-3 px-5" href="#">Ver mapa</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item h-100">
+                    <div class="project-img">
+                        <img src="img/red-3.png" class="img-fluid w-100 rounded" alt="Image">
+                    </div>
+                    <div class="project-content bg-light rounded p-4">
+                        <div class="project-content-inner">
+                            <div class="project-icon mb-3"><i class="fa-solid fa-network-wired fa-4x text-primary"></i></div>
+                            <p class="text-primary fs-5 mb-3">Red en Huaral</p>
+                            <a href="#" class="h4 text-gris">Nuestra infraestructura abarca
+                                gran parte de la región, con una
+                                conectividad avanzada a través de
+                                nuestra red de última generación,
+                                garantizando un servicio estable
+                                y eficiente.</a>
+                            <div class="pt-4">
+                                <a class="btn btn-light rounded-pill py-3 px-5" href="#">Ver mapa</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- About End -->
+    </div>
+    <!-- Network End -->
 
 
-        <!-- Team Start -->
-        <div class="container-fluid team pb-5">
-            <div class="container pb-5">
-                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
-                    <h4 class="text-primary">Nuestro Equipo</h4>
-                    <h1 class="display-4"> Nuestro miembro del equipo de Vemax Corporativo</h1>
+     <!-- FAQ Start -->
+     <div class="container-fluid faq py-5">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
+                    <div class="pb-5">
+                        <h4 class="text-primary">Tu Mejor Elección</h4>
+                        <h1 class="display-4">¿Porqué elegirnos?</h1>
+                    </div>
+                   <div class="accordion bg-light rounded p-4" id="accordionExample">
+                        <div class="accordion-item border-0 mb-4">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button text-primary fs-5 fw-bold rounded-top" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseTOne">
+                                    Mayor Cobertura
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body my-2">
+                                    <p> Contamos con una amplia cobertura en diversas áreas, gracias a 
+                                        nuestra red que se extiende sobre gran parte del territorio, garantizando 
+                                        un servicio confiable y eficiente para nuestros clientes. Seguimos 
+                                        trabajando para ampliar aún más nuestra presencia y mejorar la 
+                                        conectividad.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0 mb-4">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed text-primary fs-5 fw-bold rounded-top" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Atención Personalizada
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body my-2">
+                                    <p>Nuestro equipo de soporte está a tu disposición en todo momento, 
+                                        brindando una atención personalizada adaptada a las necesidades 
+                                        específicas de cada cliente.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0 mb-4">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed text-primary fs-5 fw-bold rounded-top" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Nuestra Experiencia
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body my-2">
+                                    <p> A lo largo de nuestra trayectoria, hemos logrado posicionarnos como un 
+                                        referente en la industria del internet, ofreciendo un servicio de calidad 
+                                        excepcional y duradero.
+                                        Contamos con la confianza de más de 15 grandes compañías, lo que 
+                                        respalda nuestra capacidad para ofrecer soluciones que superan 
+                                        consistentemente las expectativas, manteniendo siempre los más altos 
+                                        estándares de fiabilidad y excelencia.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item border-0 mb-0">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed text-primary fs-5 fw-bold rounded-top" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    ¿Cuáles son los beneficios que ofrece una
+                                    conexión a Internet Dedicado para tu empresa?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                <div class="accordion-body my-2">
+                                    <!-- <h5>Dolor sit amet consectetur adipisicing elit.</h5> -->
+                                    <p> Una conexión a Internet dedicada ofrece a tu empresa: velocidad 
+                                        garantizada, alta fiabilidad, baja latencia y mayor seguridad, asegurando 
+                                        un rendimiento óptimo y soporte técnico prioritario. Es ideal para 
+                                        empresas que necesitan una conectividad robusta y escalable.</p>
+                                </div>
+                            </div>
+                        </div>
+                   </div>
                 </div>
-                <div class="row g-4 justify-content-center">
-                    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="team-item rounded">
-                            <div class="team-img">
-                                <img src="img/team-1.png" class="img-fluid w-100 rounded-top" alt="Image">
-                                <div class="team-icon">
-                                    <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i class="fas fa-share-alt"></i></a>
-                                    <div class="team-icon-share">
-                                        <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-0" href=""><i class="fab fa-instagram"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="team-content bg-dark text-center rounded-bottom p-4">
-                                <div class="team-content-inner rounded-bottom">
-                                    <h4 class="text-white">MAX NOLBERTO</h4>
-                                    <p class="text-muted mb-0">Gerente General</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="team-item rounded">
-                            <div class="team-img">
-                                <img src="img/team-2.jpg" class="img-fluid w-100 rounded-top" alt="Image">
-                                <div class="team-icon">
-                                    <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i class="fas fa-share-alt"></i></a>
-                                    <div class="team-icon-share">
-                                        <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-0" href=""><i class="fab fa-instagram"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="team-content bg-dark text-center rounded-bottom p-4">
-                                <div class="team-content-inner rounded-bottom">
-                                    <h4 class="text-white">IVONNE CRISTOBAL</h4>
-                                    <p class="text-muted mb-0">Diseño y Marketing</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="team-item rounded">
-                            <div class="team-img">
-                                <img src="img/team-2.png" class="img-fluid w-100 rounded-top" alt="Image">
-                                <div class="team-icon">
-                                    <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i class="fas fa-share-alt"></i></a>
-                                    <div class="team-icon-share">
-                                        <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-0" href=""><i class="fab fa-instagram"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="team-content bg-dark text-center rounded-bottom p-4">
-                                <div class="team-content-inner rounded-bottom">
-                                    <h4 class="text-white">ESPERANZA ROMERO</h4>
-                                    <p class="text-muted mb-0">Ingeniera de sistemas</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
-                        <div class="team-item rounded">
-                            <div class="team-img">
-                                <img src="img/team-4.jpg" class="img-fluid w-100 rounded-top" alt="Image">
-                                <div class="team-icon">
-                                    <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i class="fas fa-share-alt"></i></a>
-                                    <div class="team-icon-share">
-                                        <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i class="fab fa-facebook-f"></i></a>
-                                        <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href=""><i class="fab fa-twitter"></i></a>
-                                        <a class="btn btn-primary btn-sm-square text-white rounded-circle mb-0" href=""><i class="fab fa-instagram"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="team-content bg-dark text-center rounded-bottom p-4">
-                                <div class="team-content-inner rounded-bottom">
-                                    <h4 class="text-white">LUIS NOLBERTO</h4>
-                                    <p class="text-muted mb-0">Ingeniero NOC</p>
-                                </div>
-                            </div>
-                        </div>
+                <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.3s">
+                    <div class="faq-img RotateMoveRight rounded">
+                        <img src="img/sobre-nosotros1.png" class="img-fluid rounded w-100" alt="Image">
+                        <!-- <a class="faq-btn btn btn-primary rounded-pill text-white py-3 px-5" href="#">Por ahora no tenemos mas preguntas<i class="fas fa-arrow-right ms-2"></i></a> -->
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Team End -->
+    </div>
+    <!-- FAQ End -->
 
-        <!-- Footer Start -->
-        <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
-            <div class="container py-5">
-                <div class="row g-5">
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item d-flex flex-column">
-                            <div class="footer-item">
-                                <!-- <h4 class="text-white mb-4">Newsletter</h4> -->
-                                <img src="img/logo-corporativo1.png" alt="Logo" class="logo-footer">
-                                <p class="mb-3"> Empresa de Telecomunicaciones 100% 
-                                    peruana con más de 5 años de 
-                                    experiencia en Telecomunicaciones.</p>
-                                <!-- <div class="position-relative mx-auto rounded-pill">
+    <!-- Footer Start -->
+    <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <div class="footer-item">
+                            <!-- <h4 class="text-white mb-4">Newsletter</h4> -->
+                            <img src="img/logo-corporativo1.png" alt="Logo" class="logo-footer">
+                            <p class="mb-3"> Empresa de Telecomunicaciones 100%
+                                peruana con más de 5 años de
+                                experiencia en Telecomunicaciones.</p>
+                            <!-- <div class="position-relative mx-auto rounded-pill">
                                     <input class="form-control rounded-pill w-100 py-3 ps-4 pe-5" type="text" placeholder="Enter your email">
                                     <button type="button" class="btn btn-primary rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2">SignUp</button>
                                 </div> -->
-                            </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item d-flex flex-column">
-                            <h4 class="text-white mb-4">Sobre Nosotros</h4>
-                            <a href="index.html"><i class="fas fa-angle-right me-2"></i>Hogar</a>
-                            <a href="service.html"><i class="fas fa-angle-right me-2"></i>Servicios</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i>Sobre Nosotros</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i>Ultimos articulos</a>
-                            <a href="testimonial.html"><i class="fas fa-angle-right me-2"></i> testimonial</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Nuestro Equipo</a>
-                            <a href="#"><i class="fas fa-angle-right me-2"></i> Contáctanos</a>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-white mb-4">Sobre Nosotros</h4>
+                        <a href="index.html"><i class="fas fa-angle-right me-2"></i>Hogar</a>
+                        <a href="service.html"><i class="fas fa-angle-right me-2"></i>Servicios</a>
+                        <a href="#"><i class="fas fa-angle-right me-2"></i>Sobre Nosotros</a>
+                        <a href="#"><i class="fas fa-angle-right me-2"></i>Ultimos articulos</a>
+                        <a href="testimonial.html"><i class="fas fa-angle-right me-2"></i> testimonial</a>
+                        <a href="#"><i class="fas fa-angle-right me-2"></i> Nuestro Equipo</a>
+                        <a href="#"><i class="fas fa-angle-right me-2"></i> Contáctanos</a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="text-white mb-4">Contáctanos</h4>
+                        <a href=""><i class="fa fa-map-marker-alt me-2"></i> San Juan de Lurigancho </a>
+                        <a href=""><i class="fas fa-envelope me-2"></i> ventas@vemax.com.pe</a>
+                        <a href=""><i class="fas fa-phone me-2"></i> 01 480 0191</a>
+                        <a href="" class="mb-3"><i class="fas fa-mobile me-2"></i> 908 885 187</a>
+                        <div class="d-flex align-items-center">
+                            <a class="btn btn-light btn-md-square me-2" href="https://www.facebook.com/VemaxPeru"
+                                target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-light btn-md-square me-2" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-light btn-md-square me-2" href="https://www.instagram.com/vemaxperu/"
+                                target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-light btn-md-square me-0" href="https://www.tiktok.com/@vemaxperu"
+                                target="_blank"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item d-flex flex-column">
-                            <h4 class="text-white mb-4">Contáctanos</h4>
-                            <a href=""><i class="fa fa-map-marker-alt me-2"></i> San Juan de Lurigancho </a>
-                            <a href=""><i class="fas fa-envelope me-2"></i> ventas@vemax.com.pe</a>
-                            <a href=""><i class="fas fa-phone me-2"></i>  01 480 0191</a>
-                            <a href="" class="mb-3"><i class="fas fa-mobile me-2"></i> 908 885 187</a>
-                            <div class="d-flex align-items-center">
-                                <a class="btn btn-light btn-md-square me-2"href="https://www.facebook.com/VemaxPeru" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-light btn-md-square me-2" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-light btn-md-square me-2" href="https://www.instagram.com/vemaxperu/" target="_blank"><i class="fab fa-instagram"></i></a>
-                                <a class="btn btn-light btn-md-square me-0" href="https://www.tiktok.com/@vemaxperu" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                            </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item-post d-flex flex-column">
+                        <h4 class="text-white mb-4"> Popular Ahora</h4>
+                        <div class="d-flex flex-column mb-3">
+                            <p class="text-uppercase text-primary mb-2">IPS</p>
+                            <a href="#" class="text-body"> Revisando objetivos de inversión y distribución a nivel
+                                nacional.</a>
                         </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item-post d-flex flex-column">
-                            <h4 class="text-white mb-4"> Popular Ahora</h4>
-                            <div class="d-flex flex-column mb-3">
-                                <p class="text-uppercase text-primary mb-2">IPS</p>
-                                <a href="#" class="text-body"> Revisando objetivos de inversión y distribución a nivel nacional.</a>
-                            </div>
-                            <div class="d-flex flex-column mb-3">
-                                <p class="text-uppercase text-primary mb-2"> PROPUESTAS</p>
-                                <a href="#" class="text-body">
-                                    Revisando objetivos de inversión
-                                    y distribución a nivel nacional.
-                                    Entrevista con el Gerente General
-                                    de Vemax Corporativo</a>
-                            </div>
-                            <!-- <div class="footer-btn text-start">
+                        <div class="d-flex flex-column mb-3">
+                            <p class="text-uppercase text-primary mb-2"> PROPUESTAS</p>
+                            <a href="#" class="text-body">
+                                Revisando objetivos de inversión
+                                y distribución a nivel nacional.
+                                Entrevista con el Gerente General
+                                de Vemax Corporativo</a>
+                        </div>
+                        <!-- <div class="footer-btn text-start">
                                 <a href="#" class="btn btn-light rounded-pill px-4">View All Post <i class="fa fa-arrow-right ms-1"></i></a>
                             </div> -->
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Footer End -->
+    </div>
+    <!-- Footer End -->
 
-        
-        <!-- Copyright Start -->
-        <div class="container-fluid copyright py-4">
-            <div class="container">
-                <div class="row g-4 align-items-center">
-                    <div class="col-md-6 text-center text-md-start mb-md-0">
-                        <span class="text-body">Todos los derechos reservados.</span>
-                    </div>
-                    <div class="col-md-6 text-center text-md-end text-body">
-                        <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
-                        <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
-                        <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-                        Politica de privacidad / Terminos y Condiciones
-                    </div>
+
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4">
+        <div class="container">
+            <div class="row g-4 align-items-center">
+                <div class="col-md-6 text-center text-md-start mb-md-0">
+                    <span class="text-body">Todos los derechos reservados.</span>
+                </div>
+                <div class="col-md-6 text-center text-md-end text-body">
+                    <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+                    <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+                    <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+                    Politica de privacidad / Terminos y Condiciones
                 </div>
             </div>
         </div>
-        <!-- Copyright End -->
+    </div>
+    <!-- Copyright End -->
 
 
-        <!-- Back to Top -->
-        <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>
 
-        
+
     <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -421,10 +757,10 @@
     <script src="lib/counterup/counterup.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
-    
+
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-    </body>
+</body>
 
 </html>
