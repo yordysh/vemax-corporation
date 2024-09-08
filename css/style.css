@@ -736,7 +736,7 @@
 }
 
 .project .project-carousel .project-item:hover .project-content .project-content-inner a.h4:hover {
-    color: var(--bs-primary) !important;
+    color: #3F5FF9 !important;
 }
 
 .project .project-carousel .project-item:hover .project-content::after {
@@ -779,6 +779,10 @@
     border-radius: 10px;
     transition: 0.5s;
 }
+.blog .blog-item .blog-project a.h4:hover {
+    color: #3F5FF9 !important;
+}
+
 
 .blog .blog-item .project-img .blog-plus-icon {
     position: absolute;
